@@ -1,0 +1,58 @@
+body {
+    background-color: gray;
+    background-image: url("Bg3.jpg");
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container {
+        max-width: 400px;
+        margin: 50px auto;
+        background: rgb(243, 239, 239);
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        margin-top: 50px;
+        text-align: center;
+}
+.a{
+    text-align: left;
+}
+.left-corner-image{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    background: transparent;
+}
+h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: green;
+}
+
+form {
+    max-width: 300px;
+    margin: 0 auto;
+    color: rgb(14, 13, 13);
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input {
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #0cfd04;
+    color: #f7f1f1;
+    border: none;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #0cfd04;
+}

@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 2.0;
+}
+#background-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+}
+h1{
+    font-family: Arial;
+    font-weight: bold;
+    display: block;
+    font-size: 120px;
+    margin-top: 30px;
+}
+
+header {
+    background: #181616;
+    color: #c7c2c2;
+    padding: 10px 25px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-top: 10px;
+}
+main img{
+    width: 200px;
+    height: 120px;
+    display: inline-block;
+    align-items: left;
+    text-align: right;
+    margin-right: 10px;
+}
+
+header  .logo {
+    font-size: 30px;
+    margin-left: 0%;
+    margin-right: 450px;
+    font-weight: bold;
+    display: block;
+    
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li {
+    margin-left: 62px;
+    text-align: right;
+    margin-right: 30px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    background: url('hero-bg3.jpg') no-repeat center center/cover;
+    color: rgb(10, 10, 10);
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.cta-button {
+    background: #5cb85c;
+    color: white;
+    padding: 10px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.cta-button:hover{
+    background-color: red;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+.p{
+    text-align: left;
+}
+
+.feature {
+    margin: 20px 0;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
